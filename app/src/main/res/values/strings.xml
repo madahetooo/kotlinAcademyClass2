@@ -35,4 +35,7 @@
     <string name="salad">Salad</string>
     <string name="order">Order</string>
     <string name="total_order">Total Order</string>
+    <string name="enter_your_todo">Enter your todo</string>
+    <string name="add">Add</string>
+    <string name="todotitle">TodoTitle</string>
 </resources>

@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.bamboogeeks.kotlinacademyclass2.databinding.ActivityHomeBinding
+import com.bamboogeeks.kotlinacademyclass2.todolist.ui.TodolistActivity
 
 class HomeActivity : AppCompatActivity() {
     private lateinit var binding: ActivityHomeBinding
@@ -21,6 +22,10 @@ class HomeActivity : AppCompatActivity() {
         }
         binding.btnRestaurantApp.setOnClickListener {
             var intent = Intent(this,RestaurantActivity::class.java)
+            startActivity(intent)
+        }
+        binding.btnTodoListApp.setOnClickListener {
+            var intent = Intent(this,TodolistActivity::class.java)
             startActivity(intent)
         }
     }

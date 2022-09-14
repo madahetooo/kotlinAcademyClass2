@@ -9,6 +9,8 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.5" />
         <entry key="app/src/main/res/layout/activity_registration.xml" value="0.5" />
         <entry key="app/src/main/res/layout/activity_restaurant.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_todolist.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/item_todo.xml" value="0.33" />
       </map>
     </option>
   </component>
