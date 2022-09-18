@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_calculator.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_coroutine.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_counter.xml" value="0.5" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.5" />

@@ -1,4 +1,4 @@
-package com.bamboogeeks.kotlinacademyclass2
+package com.bamboogeeks.kotlinacademyclass2.counterapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

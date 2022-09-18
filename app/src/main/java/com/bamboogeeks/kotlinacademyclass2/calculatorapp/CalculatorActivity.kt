@@ -1,4 +1,4 @@
-package com.bamboogeeks.kotlinacademyclass2
+package com.bamboogeeks.kotlinacademyclass2.calculatorapp
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

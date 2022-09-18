@@ -1,4 +1,4 @@
-package com.bamboogeeks.kotlinacademyclass2
+package com.bamboogeeks.kotlinacademyclass2.restaurantapp
 
 import android.os.Bundle
 import android.widget.RadioButton

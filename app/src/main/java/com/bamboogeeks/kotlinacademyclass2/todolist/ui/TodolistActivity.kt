@@ -28,7 +28,6 @@ class TodolistActivity : AppCompatActivity() {
                 adapter.notifyDataSetChanged()
                 binding.etTodo.text.clear()
             }
-
         }
     }
 }

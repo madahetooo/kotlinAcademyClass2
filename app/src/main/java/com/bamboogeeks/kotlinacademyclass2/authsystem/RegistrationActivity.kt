@@ -1,8 +1,9 @@
-package com.bamboogeeks.kotlinacademyclass2
+package com.bamboogeeks.kotlinacademyclass2.authsystem
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.bamboogeeks.kotlinacademyclass2.HomeActivity
 import com.bamboogeeks.kotlinacademyclass2.databinding.ActivityRegistrationBinding
 
 class RegistrationActivity : AppCompatActivity() {
@@ -13,11 +14,11 @@ class RegistrationActivity : AppCompatActivity() {
         setContentView(binding.root)
         binding.txLogin.setOnClickListener {
             // Navigating from Login Activity to Registration Activity
-            var intent = Intent(this,MainActivity::class.java)
+            var intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
         binding.btnRegister.setOnClickListener {
-            var intent = Intent(this,HomeActivity::class.java)
+            var intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
         }
     }

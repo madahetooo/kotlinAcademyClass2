@@ -14,25 +14,28 @@
         android:theme="@style/Theme.KotlinAcademyClass2"
         tools:targetApi="31">
         <activity
+            android:name=".authsystem.MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".todolist.ui.TodolistActivity"
             android:exported="false" />
         <activity
-            android:name=".RestaurantActivity"
+            android:name=".restaurantapp.RestaurantActivity"
             android:exported="false" />
         <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".CounterActivity"
+            android:name=".counterapp.CounterActivity"
             android:exported="false" />
         <activity
-            android:name=".CalculatorActivity"
+            android:name=".calculatorapp.CalculatorActivity"
             android:exported="false" />
         <activity
-            android:name=".RegistrationActivity"
+            android:name=".authsystem.RegistrationActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".coroutineapp.CoroutineActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
