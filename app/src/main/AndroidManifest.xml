@@ -14,6 +14,12 @@
         android:theme="@style/Theme.KotlinAcademyClass2"
         tools:targetApi="31">
         <activity
+            android:name=".ShoppingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".coroutineapp.CoroutineActivity"
+            android:exported="false" />
+        <activity
             android:name=".authsystem.MainActivity"
             android:exported="false" />
         <activity
@@ -35,7 +41,7 @@
             android:name=".authsystem.RegistrationActivity"
             android:exported="false" />
         <activity
-            android:name=".coroutineapp.CoroutineActivity"
+            android:name=".shoppingitemapp.ui.ShoppingActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

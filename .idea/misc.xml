@@ -10,8 +10,13 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.5" />
         <entry key="app/src/main/res/layout/activity_registration.xml" value="0.5" />
         <entry key="app/src/main/res/layout/activity_restaurant.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_shopping.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_todo_list_api.xml" value="0.18958333333333333" />
         <entry key="app/src/main/res/layout/activity_todolist.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/item_add_shopping_dialog.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/item_shopping.xml" value="0.67" />
         <entry key="app/src/main/res/layout/item_todo.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/item_todo_api.xml" value="0.33" />
       </map>
     </option>
   </component>

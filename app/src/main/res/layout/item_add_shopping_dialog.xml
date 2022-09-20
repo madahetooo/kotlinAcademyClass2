@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+android:background="#E5E5E5"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txAddNewItemTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_new_item"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etShoppingItemDialogName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_item_name"
+        android:inputType="text"
+        android:layout_marginEnd="10dp"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/txAddNewItemTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txAddNewItemTitle" />
+
+    <EditText
+        android:id="@+id/etShoppingItemDialogAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/amount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/etShoppingItemDialogName"
+        app:layout_constraintTop_toBottomOf="@+id/txAddNewItemTitle" />
+
+    <Button
+        android:id="@+id/btnShoppingDialogCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/cancel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etShoppingItemDialogAmount" />
+
+    <Button
+        android:id="@+id/btnShoppingDialogAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/adddialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnShoppingDialogCancel"
+        app:layout_constraintTop_toTopOf="@+id/btnShoppingDialogCancel" />
+</androidx.constraintlayout.widget.ConstraintLayout>

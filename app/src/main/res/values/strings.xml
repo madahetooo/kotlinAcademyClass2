@@ -39,4 +39,11 @@
     <string name="add">Add</string>
     <string name="todotitle">TodoTitle</string>
     <string name="dummy_text">Dummy Text</string>
+    <string name="shopping_item_name">Shopping Item Name</string>
+    <string name="item_amount">Item Amount</string>
+    <string name="enter_item_name">Enter Item Name</string>
+    <string name="add_new_item">Add New Item</string>
+    <string name="amount">Amount</string>
+    <string name="cancel">Cancel</string>
+    <string name="adddialog">ADD</string>
 </resources>
