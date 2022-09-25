@@ -46,4 +46,7 @@
     <string name="amount">Amount</string>
     <string name="cancel">Cancel</string>
     <string name="adddialog">ADD</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="download_image">Download Image</string>
+    <string name="delete_image">Delete Image</string>
 </resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1080629919299",
+    "project_id": "kotlinacademy-class2",
+    "storage_bucket": "kotlinacademy-class2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080629919299:android:ffecf3fc86de9cf844def6",
+        "android_client_info": {
+          "package_name": "com.bamboogeeks.kotlinacademyclass2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080629919299-qtg7j111djjlj5tu8ogonfduij6ervuj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjSDIfaL1yuAcdyd3dVm-YJ7T4APua48E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080629919299-qtg7j111djjlj5tu8ogonfduij6ervuj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

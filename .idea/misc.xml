@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_calculator.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_clothes_app.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_coroutine.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_counter.xml" value="0.5" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.33" />
@@ -14,6 +15,7 @@
         <entry key="app/src/main/res/layout/activity_todo_list_api.xml" value="0.18958333333333333" />
         <entry key="app/src/main/res/layout/activity_todolist.xml" value="0.33" />
         <entry key="app/src/main/res/layout/item_add_shopping_dialog.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/item_clothes.xml" value="0.25" />
         <entry key="app/src/main/res/layout/item_shopping.xml" value="0.67" />
         <entry key="app/src/main/res/layout/item_todo.xml" value="0.33" />
         <entry key="app/src/main/res/layout/item_todo_api.xml" value="0.33" />

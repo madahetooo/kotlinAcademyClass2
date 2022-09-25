@@ -13,8 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinAcademyClass2"
         tools:targetApi="31">
+
         <activity
-            android:name=".ShoppingActivity"
+            android:name=".shoppingitemapp.ui.ShoppingActivity"
             android:exported="false" />
         <activity
             android:name=".coroutineapp.CoroutineActivity"
@@ -41,7 +42,7 @@
             android:name=".authsystem.RegistrationActivity"
             android:exported="false" />
         <activity
-            android:name=".shoppingitemapp.ui.ShoppingActivity"
+            android:name=".firebasestorageapp.ClothesApp"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
