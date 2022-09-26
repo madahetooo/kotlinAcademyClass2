@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.bamboogeeks.kotlinacademyclass2">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,7 +15,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinAcademyClass2"
         tools:targetApi="31">
+        <service android:name=".pushnotification.service.FirebaseService"
+            android:exported="false"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
 
+
+        <activity
+            android:name=".pushnotification.ui.CloudMessagingApp"
+            android:exported="false" />
         <activity
             android:name=".shoppingitemapp.ui.ShoppingActivity"
             android:exported="false" />

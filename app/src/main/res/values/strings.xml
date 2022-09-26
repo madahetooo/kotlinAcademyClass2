@@ -49,4 +49,8 @@
     <string name="upload_image">Upload Image</string>
     <string name="download_image">Download Image</string>
     <string name="delete_image">Delete Image</string>
+    <string name="enter_notification_title">Enter notification title</string>
+    <string name="enter_notification_message">Enter notification Message</string>
+    <string name="token">Token</string>
+    <string name="send_notification">Send Notificaiton</string>
 </resources>
